@@ -1,0 +1,18 @@
+.AnswerItem{
+    border: 1px solid #fff;
+    border-radius: 5px;
+    padding: 5px 10px;
+    margin-bottom: 5px;
+    cursor: pointer;
+}
+.AnswerItem:hover{
+    background: rgba(255, 255, 255, 0.4);
+    /* transition: rgba(211, 108, 108, 0.4) .3s ease-in-out; */
+    
+}
+.AnswerItem.succes{
+    background: rgba(4, 253, 4, 0.7);
+}
+.AnswerItem.error{
+    background: rgba(248, 2, 2, 0.7);
+}
