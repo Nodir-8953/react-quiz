@@ -8,7 +8,7 @@ import Auth from './containers/Auth/Auth';
 
 function App() {
   return (
-    <div className="App">
+    <div>
       <Layout>
         <Routes>
           <Route  path='/auth' element={<Auth />} />
